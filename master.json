@@ -1,20 +1,20 @@
 [
   {
-      name: "Transformation 1",
-      description: "This is a transformation example",
-      type: "transformation",
-      code: "transformation_example.js"
+      "name": "Transformation 1",
+      "description": "This is a transformation example",
+      "type": "transformation",
+      "code": "transformation_example.js"
   },
   {
-      name: "Event 1",
-      description: "This is an event example",
-      type: "event",
-      code: "event_example.js"
+      "name": "Event 1",
+      "description": "This is an event example",
+      "type": "event",
+      "code": "event_example.js"
   },
   {
-      name: "Visitor 1",
-      description: "This is visitor 1",
-      type: "visitor",
-      code: "visitor_example.js"
+      "name": "Visitor 1",
+      "description": "This is visitor 1",
+      "type": "visitor",
+      "code": "visitor_example.js"
   }
 ]
