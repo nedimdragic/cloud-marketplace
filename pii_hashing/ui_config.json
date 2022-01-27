@@ -1,0 +1,30 @@
+{
+        "fields" : [
+            {   
+                "id" : "overwrite",
+                "display_name" : "Overwrite",
+                "description" : "Should new hashed values should overwrite exisiting property in data object",
+                "type" : "boolean",
+                "value" : false
+            },
+            {
+                "id" : "prefix",
+                "display_name" : "Prefix",
+                "description" : "The Prefix for the hashed attributes",
+                "type" : "text",
+                "requires" : [{
+                    "overwrite":true
+                }],
+                "value" :"hashed_"
+            },
+            {
+                "id" : "prop_names",
+                "display_name" : "Property Names",
+                "description" : "A list of property names to hash",
+                "type" : "userlist",
+                "values" : ["email"],
+                "size" : 5,
+                "multiple" : true
+            }
+        ]
+    }
