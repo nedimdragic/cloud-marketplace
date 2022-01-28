@@ -13,7 +13,7 @@
                 "description" : "The Prefix for the hashed attributes",
                 "type" : "text",
                 "requires" : [{
-                    "overwrite":true
+                    "overwrite":false
                 }],
                 "value" :"hashed_"
             },
