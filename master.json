@@ -23,5 +23,12 @@
       "type": "transformation",
       "code": "pii_hashing/pii_hashing.js",
       "ui_config" : "pii_hashing/ui_config.json"
+  },
+  {
+      "name": "PII Encrypting",
+      "description": "Encrypts specified PII data with a secret key before event enrichments",
+      "type": "transformation",
+      "code": "pii_encrypting/pii_encrypting.js",
+      "ui_config" : "pii_encrypting/ui_config.json"
   }
 ]
