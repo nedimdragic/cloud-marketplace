@@ -3,7 +3,7 @@ import CryptoES from 'crypto-es';
 // "transform" function allows you to access event and apply changes
 transform((event) => {
     const overwrite = {{overwrite}};
-    const prefix = overwrite ? "{{prefix}}" : "";
+    const prefix = overwrite ? "" : "{{prefix}}";
     // demo purposes, before and after
     const before = {};
     const after = {};
