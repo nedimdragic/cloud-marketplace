@@ -1,0 +1,37 @@
+{
+        "fields" : [
+            {   
+                "id" : "overwrite",
+                "display_name" : "Overwrite",
+                "description" : "Should new hashed values should overwrite exisiting property in data object",
+                "type" : "boolean",
+                "value" : false
+            },
+            {
+                "id" : "prefix",
+                "display_name" : "Prefix",
+                "description" : "The Prefix for the hashed attributes",
+                "type" : "text",
+                "requires" : [{
+                    "overwrite":false
+                }],
+                "value" :"hashed_"
+            },
+            {
+                "id" : "key",
+                "display_name" : "Secret Key",
+                "description" : "The Secret Key the string is encrypted with",
+                "type" : "text",
+                "value" :"MyVerySecretKey"
+            },
+            {
+                "id" : "prop_names",
+                "display_name" : "Property Names",
+                "description" : "A list of property names to hash",
+                "type" : "userlist",
+                "values" : ["email"],
+                "size" : 5,
+                "multiple" : true
+            }
+        ]
+    }
