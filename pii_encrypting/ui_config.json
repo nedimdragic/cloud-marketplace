@@ -15,7 +15,7 @@
                 "requires" : [{
                     "overwrite":false
                 }],
-                "value" :"hashed_"
+                "value" :"encrypted_"
             },
             {
                 "id" : "key",
