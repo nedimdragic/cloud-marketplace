@@ -5,15 +5,15 @@
                 "display_name" : "Input",
                 "description" : "testing list input",
                 "type" : "list",
-                "values" : ["These", "Are", "Your", "Options"]
+                "values" : ["These", "Are", "Your", "Options"],
                 "multiple" : false
             },
-          {   
+            {   
                 "id" : "multi_input",
                 "display_name" : "Multiple Input",
                 "description" : "testing list input",
                 "type" : "list",
-                "values" : ["These", "Are", "Your", "Options", "Pick", "Lots"]
+                "values" : ["These", "Are", "Your", "Options", "Pick", "Lots"],
                 "multiple" : true
             }
         ]
