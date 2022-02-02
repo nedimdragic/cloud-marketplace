@@ -13,6 +13,7 @@
                 "display_name" : "Multiple Input",
                 "description" : "testing list input",
                 "type" : "list",
+                "size":5,
                 "values" : ["These", "Are", "Your", "Options", "Pick", "Lots"],
                 "multiple" : true
             }
