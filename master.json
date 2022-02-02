@@ -3,7 +3,8 @@
       "name": "Transformation 1",
       "description": "This is a transformation example",
       "type": "transformation",
-      "code": "transformation_example.js"
+      "code": "transformation_example/transformation_example.js",
+      "ui_config" :"transformation_example/ui_config.json"
   },
   {
       "name": "Event 1",
