@@ -1,0 +1,30 @@
+{
+    "fields" : [
+        {   
+            "id" : "lowercase_all",
+            "display_name" : "All Variables to Lower Case",
+            "description" : "Set all writable variables to lower case",
+            "type" : "boolean",
+            "values" : false
+        },
+        {
+            "id" : "prop_names",
+            "display_name" : "Property Names",
+            "description" : "A list of property names to lower case",
+            "type" : "userlist",
+            "requires" : [{
+                "lowercase_all" : false
+            }],
+            "values" : ["customer_email"],
+            "size" : 5,
+            "multiple" : true
+        },
+        {
+            "id" : "lowercase_array",
+            "display_name" : "Lower case array items",
+            "description" : "Define wether or not to lower case all items in arrays",
+            "type" : "boolean",
+            "value" : false
+        }
+    ]
+}

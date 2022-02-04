@@ -31,5 +31,12 @@
       "type": "transformation",
       "code": "pii_encrypting/pii_encrypting.js",
       "ui_config" : "pii_encrypting/ui_config.json"
+  },
+  {
+      "name": "Lower Casing",
+      "description": "Use this customization to set writable udo data to lower case. This is a best practice for data consistency.",
+      "type": "transformation",
+      "code": "lower_casing/lower_casing.js",
+      "ui_config" : "lower_casing/ui_config.json"
   }
 ]
