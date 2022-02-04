@@ -1,7 +1,7 @@
 
 transform((event) => {
     const lowercase_all = {{lowercase_all}};
-    const lowercase_array = {{lowercase_array}}};
+    const lowercase_array = {{lowercase_array}};
     const prop_names = lowercase_all ? event.data.udo : {{prop_names}};
     let prop, elem, prop_elem;
     try {
