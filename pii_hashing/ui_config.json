@@ -19,7 +19,7 @@
             },
             {
                 "id" : "prop_names",
-                "display_name" : "Attributes",
+                "display_name" : "Attributes containing PII to be hashed",
                 "description" : "A list of Attributes to hash",
                 "type" : "attributelist",
                 "size" : 5,
