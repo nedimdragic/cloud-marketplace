@@ -19,10 +19,9 @@
             },
             {
                 "id" : "prop_names",
-                "display_name" : "Property Names",
-                "description" : "A list of property names to hash",
-                "type" : "userlist",
-                "values" : ["email"],
+                "display_name" : "Attributes",
+                "description" : "A list of Attributes to hash",
+                "type" : "attributelist",
                 "size" : 5,
                 "multiple" : true
             }
