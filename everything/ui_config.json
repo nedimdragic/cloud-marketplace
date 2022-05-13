@@ -1,0 +1,65 @@
+{
+        "fields" : [
+         {   
+                "id" : "bool_test",
+                "display_name" : "Boolean Test",
+                "description" : "Test field for a bool attribute",
+                "type" : "boolean"
+            },
+            {   
+                "id" : "keypair_test",
+                "display_name" : "KVP Test",
+                "description" : "Test field for a keypair attribute",
+                "type" : "keypair",
+                "allowAttributes": false
+            },
+            {
+                "id" : "text_test",
+                "display_name" : "Text Test",
+                "description" : "Test field for text attribute",
+                "type" : "text",
+                "requires" : [{
+                    "bool_test":false
+                }],
+                "value" :"existing example"
+            },
+            {   
+                "id" : "number_test",
+                "display_name" : "Number Test",
+                "description" : "Test field for a number attribute",
+                "type" : "number"
+            },
+            {
+                "id" : "userlist_test",
+                "display_name" : "User list test",
+                "description" : "A test field for user_list fields",
+                "type" : "userlist",
+                "values" : ["example", "values"],
+                "size" : 5,
+                "multiple" : true
+            },
+            {
+                "id" : "list_test",
+                "display_name" : "List test",
+                "description" : "A test field for list fields",
+                "type" : "list",
+                "values" : ["example", "values","are", "listed", "here"],
+                "size" : 5,
+                "multiple" : true
+            },
+            {   
+                "id" : "att_test",
+                "display_name" : "Attribute Test",
+                "description" : "Test field for an attribute",
+                "type" : "attribute"
+            },
+            {
+                "id" : "att_list",
+                "display_name" : "Attribute List Test",
+                "description" : "Test field for a list of attributes",
+                "type" : "attributelist",
+                "size" : 5,
+                "multiple" : true
+            }
+        ]
+    }

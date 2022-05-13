@@ -1,0 +1,26 @@
+{
+        "fields" : [
+            {   
+                "id" : "att_test",
+                "display_name" : "Attribute Test",
+                "description" : "Test field for an attribute",
+                "type" : "attribute"
+            },
+            {
+                "id" : "att_list",
+                "display_name" : "Attribute List Test",
+                "description" : "Test field for a list of attributes",
+                "type" : "attributelist",
+                "size" : 5,
+                "multiple" : true
+            },
+            {
+                "id" : "key_pair",
+                "display_name" : "Key Pair",
+                "description" : "Test field for a key pair object",
+                "type" : "keypair",
+                "size" : 5,
+                "allowAttributes": true
+            }
+        ]
+    }

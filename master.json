@@ -1,22 +1,10 @@
 [
   {
-      "name": "Transformation 1",
-      "description": "This is a transformation example",
+      "name": "Everything - Testing",
+      "description": "Test function to test all field types",
       "type": "transformation",
-      "code": "transformation_example/transformation_example.js",
-      "ui_config" :"transformation_example/ui_config.json"
-  },
-  {
-      "name": "Event 1",
-      "description": "This is an event example",
-      "type": "event",
-      "code": "event_example.js"
-  },
-  {
-      "name": "Visitor 1",
-      "description": "This is visitor 1",
-      "type": "visitor",
-      "code": "visitor_example.js"
+      "code": "everything/everything.js",
+      "ui_config" : "everything/ui_config.json"
   },
   {
       "name": "PII Hashing",
@@ -33,10 +21,17 @@
       "ui_config" : "pii_encrypting/ui_config.json"
   },
   {
-      "name": "Lower Casing",
-      "description": "Use this customization to set writable udo data to lower case. This is a best practice for data consistency.",
-      "type": "transformation",
-      "code": "lower_casing/lower_casing.js",
-      "ui_config" : "lower_casing/ui_config.json"
+      "name": "Visitor Example",
+      "description": "This is just an example, it doesnt really do anything",
+      "type": "visitor",
+      "code": "visitor_example/visitor_example.js",
+      "ui_config" : "visitor_example/ui_config.json"
+  },
+  {
+      "name": "Event Example",
+      "description": "This is just an example, it doesnt really do anything",
+      "type": "event",
+      "code": "event_example/event_example.js",
+      "ui_config" : "event_example/ui_config.json"
   }
 ]
