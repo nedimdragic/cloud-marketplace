@@ -16,7 +16,7 @@ transform((event) => {
                 if (typeof pii[1] == "string"){
                     before[pii[0]] = pii[1].toString();
                     event.data.udo[`${prefix}${pii[0]}`] = CryptoES.SHA256(pii[1]).toString();
-                    after[pii[0]] = event.data.udo[`${prefix}${pii[0]}`];
+                    after[`${prefix}${pii[0]}`] = event.data.udo[`${prefix}${pii[0]}`];
                     
                 }                
             });
